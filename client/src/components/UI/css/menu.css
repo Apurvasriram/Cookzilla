@@ -1,0 +1,60 @@
+.menu {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu-h1 {
+  color: #555;
+}
+
+.menu-post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-post-img {
+  width: 80%;
+  height: 10rem;
+}
+
+.menu-h2 {
+  color: #555;
+}
+
+.menu-button {
+  width: max-content;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid lightseagreen;
+  color: teal;
+}
+
+.menu-button:hover {
+  border: 1px solid white;
+  background-color: lightseagreen;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
